@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node.js dependencies
+node_modules/
+Admin/node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build files
+dist/
+dist-ssr/
+Admin/dist/
+client/build/
+server/dist/
+
+# Local environment files
+*.local
+.env
+Admin/.env
+client/.env
+server/.env
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Firebase related files (optional)
+.firebase/
+.firebaserc
+
+# Misc
+.npm/
+yarn.lock
+package-lock.json
